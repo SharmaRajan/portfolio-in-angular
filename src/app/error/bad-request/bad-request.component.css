@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,900");
+/* <link href="https://fonts.googleapis.com/css?family=Montserrat:700,900" rel="stylesheet"> */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    display:table;
+    min-height: 400px;
+    color: #1f3357;
+}
+.bad-request-container {
+    display: table-cell;
+    vertical-align: middle;
+}
+h1 {
+    font-size: 146px;
+    font-weight: 700;
+    margin: 0px 0 20px 0;
+    line-height: 0.8;
+}
+h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    color: #ff7d08;
+}
+@media screen and (max-width:479px) {
+    .bad-request-container h1 {
+        font-size: 86px;
+    }
+    .bad-request-container h2 {
+        font-size: 18px;
+    }
+}
