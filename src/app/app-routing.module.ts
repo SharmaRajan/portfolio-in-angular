@@ -14,6 +14,7 @@ const routes: Routes = [
   { path: 'not-found',component: NotFoundComponent},
   { path: 'page-not-found',component: PageNotFoundComponent},
   { path: 'bad-request',component: BadRequestComponent},
+  { path: 'internal-server-error', component: InternalServerErrorComponent},
   { path: '**', component: InternalServerErrorComponent},
 ];
 
