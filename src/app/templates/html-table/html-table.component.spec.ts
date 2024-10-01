@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BadRequestComponent } from './bad-request.component';
+import { HtmlTableComponent } from './html-table.component';
 
-describe('BadRequestComponent', () => {
-  let component: BadRequestComponent;
-  let fixture: ComponentFixture<BadRequestComponent>;
+describe('HtmlTableComponent', () => {
+  let component: HtmlTableComponent;
+  let fixture: ComponentFixture<HtmlTableComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [BadRequestComponent]
+      declarations: [HtmlTableComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(BadRequestComponent);
+    fixture = TestBed.createComponent(HtmlTableComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
