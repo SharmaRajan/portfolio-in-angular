@@ -1,0 +1,89 @@
+<!-- Nav Bar -->
+<!-- <div class="container"> -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="home">Home</a>
+                    <a class="nav-link" href="bad-request">Bad Request Test</a>
+                    <a class="nav-link" href="internal-server-error">Internal Server Test</a>
+                    <a class="nav-link" href="page-not-found">Page Not Found Test</a>
+                    <a class="nav-link" href="not-found">Not Found</a>
+                    
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    <a class="nav-link" href="test-error">Test</a>
+                  </div>
+                </div> -->
+        </div>
+          
+
+        <form class="container-fluid">
+          <div class="input-group">
+            <!-- <span class="input-group-text" id="basic-addon1"></span> -->
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+              aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group">
+            <!-- <span class="input-group-text" id="basic-addon1">Password</span> -->
+            <input type="password" class="form-control" placeholder="Password" aria-label="Username"
+              aria-describedby="basic-addon1">
+          </div>
+          <button class="btn btn-outline-success me-2" type="button">Login</button>
+        </form>
+      
+        <!-- <div class="container-fluid justify-content-end"> -->
+        <!-- <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown link
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li> -->
+      
+        <!-- <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-sm btn-outline-secondary" type="submit">Search</button>
+                    </form> -->
+        <!-- </div> -->
+      
+      
+      </nav>
+        
+      <body>
+        <div class="mode">
+            Dark mode:
+            <span class="change">OFF</span>
+          </div>
+      </body>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+        </script>
+      
+        <script>
+          $(".change").on("click", function () {
+            if ($("body").hasClass("dark")) {
+              $("body").removeClass("dark");
+              $(".change").text("OFF");
+            } else {
+              $("body").addClass("dark");
+              $(".change").text("ON");
+            }
+          });
+        </script>
+      
+        <script>
+          function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+          }
+        </script>

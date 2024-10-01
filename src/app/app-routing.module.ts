@@ -25,7 +25,7 @@ const routes: Routes = [
   // },
 
   // { path: 'login', component: LoginComponent},
-  // { path: 'home', component: HomeComponent},
+  { path: 'home', component: HomeComponent},
   { path: 'html-table', component: HtmlTableComponent},
 	{ path: '', redirectTo: 'home', pathMatch: 'full'},
   { path: 'test-error', component: TestErrorComponent},
@@ -33,8 +33,10 @@ const routes: Routes = [
   { path: 'page-not-found',component: PageNotFoundComponent},
   { path: 'bad-request',component: BadRequestComponent},
   { path: 'internal-server-error', component: ServerErrorComponent},
+  { path: '404', component: ServerErrorComponent},
   // { path: '**', component: ServerErrorComponent},
-  { path: '**', component: NotFoundComponent, pathMatch: 'full' }
+  // { path: '**', component: NotFoundComponent, pathMatch: 'full' }
+  { path: '**', redirectTo: '/404' }
 ];
 
 @NgModule({
