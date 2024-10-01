@@ -38,19 +38,30 @@
             ],
             "styles": [
               "src/styles.css",
+
               "src/css/style.css",
+              "src/css/bootstrap.min.css",
+              "src/css/bootstrap-icons.css",
               "src/css/magnific-popup.css",
               "src/css/templatemo-first-portfolio-style.css",
-              "../node_modules/@fortawesome/fontawesome-free/css/fontawesome.css",
+
+              
               "./node_modules/ngx-toastr/toastr.css",
-              "../node_modules/bootstrap/dist/css/bootstrap.css",
-              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
-              "./node_modules/bootstrap-icons/font/bootstrap-icons.css",
-              "./node_modules/bootswatch/dist/sketchy/bootstrap.min.css"
+              "./node_modules/material-icons/css/material-icons.css"
+              
+              
             ],
             "scripts": [
-              "../node_modules/jquery/dist/jquery.js",
-              "../node_modules/bootstrap/dist/js/bootstrap.js"
+
+              "src/first-js/jquery.min.js",
+              "src/first-js/bootstrap.min.js",
+              "src/first-js/jquery.sticky.js",
+              "src/first-js/click-scroll.js",
+              "src/first-js/jquery.magnific-popup.min.js",
+              "src/first-js/magnific-popup-options.js",
+              "src/first-js/custom.js"
+
+          
             ]
           },
           "configurations": {
@@ -111,19 +122,27 @@
             ],
             "styles": [
               "src/styles.css",
+              
               "src/css/style.css",
+              "src/css/bootstrap.min.css",
+              "src/css/bootstrap-icons.css",
               "src/css/magnific-popup.css",
               "src/css/templatemo-first-portfolio-style.css",
-              "../node_modules/@fortawesome/fontawesome-free/css/fontawesome.css",
+              
               "./node_modules/ngx-toastr/toastr.css",
-              "../node_modules/bootstrap/dist/css/bootstrap.css",
-              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
-              "./node_modules/bootstrap-icons/font/bootstrap-icons.css",
-              "./node_modules/bootswatch/dist/sketchy/bootstrap.min.css"
+              "./node_modules/material-icons/css/material-icons.css"
+              
             ],
             "scripts": [
-              "../node_modules/jquery/dist/jquery.js",
-              "../node_modules/bootstrap/dist/js/bootstrap.js"
+              "src/first-js/jquery.min.js",
+              "src/first-js/bootstrap.min.js",
+              "src/first-js/jquery.sticky.js",
+              "src/first-js/click-scroll.js",
+              "src/first-js/jquery.magnific-popup.min.js",
+              "src/first-js/magnific-popup-options.js",
+              "src/first-js/custom.js",
+
+              
             ]
           }
         },

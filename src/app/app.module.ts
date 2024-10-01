@@ -1,7 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { FormsModule } from '@angular/forms';
+
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
@@ -32,6 +36,7 @@ import { ProjectsComponent } from './components/home/projects/projects.component
 import { ContactsComponent } from './components/home/contacts/contacts.component';
 import { TestHomeComponent } from './components/home/test-home/test-home.component';
 import { TestNavComponent } from './components/nav/test-nav/test-nav.component';
+import { HomeTestingComponent } from './home-testing/home-testing.component';
 
 @NgModule({
   declarations: [
@@ -56,11 +61,16 @@ import { TestNavComponent } from './components/nav/test-nav/test-nav.component';
     ContactsComponent,
     TestHomeComponent,
     TestNavComponent,
+    HomeTestingComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    BrowserAnimationsModule,
+    TooltipModule.forRoot(),
+    FontAwesomeModule,
+    BsDropdownModule.forRoot(),
     BrowserAnimationsModule,
     FormsModule,
     SharedModule

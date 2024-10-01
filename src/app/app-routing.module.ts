@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
 import { HomeComponent } from './components/home/home.component';
 // import { NotFoundComponent } from './shared/not-found/not-found.component';
 
@@ -10,9 +11,13 @@ import { TestErrorComponent } from './components/errors/test-error/test-error.co
 import { NotFoundComponent } from './components/errors/not-found/not-found.component';
 
 import { HtmlTableComponent } from './templates/html-table/html-table.component';
+import { IntroductionComponent } from './components/home/introduction/introduction.component';
+import { ServicesComponent } from './components/home/services/services.component';
+import { ProjectsComponent } from './components/home/projects/projects.component';
+import { ContactsComponent } from './components/home/contacts/contacts.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent},
+  // { path: '', component: HomeComponent},
   // {
   //   path: '', runGuardsAndResolvers: 'always', canActivate: [authGuard],
   //   children: [
@@ -26,8 +31,14 @@ const routes: Routes = [
 
   // { path: 'login', component: LoginComponent},
   { path: 'home', component: HomeComponent},
+  { path: '', redirectTo: 'home', pathMatch: 'full'},
+  { path: 'about', component: IntroductionComponent},
+
+  { path: 'services', component: ServicesComponent},
+  { path: 'projects', component: ProjectsComponent},
+  { path: 'contact', component: ContactsComponent},
+
   { path: 'html-table', component: HtmlTableComponent},
-	{ path: '', redirectTo: 'home', pathMatch: 'full'},
   { path: 'test-error', component: TestErrorComponent},
   { path: 'not-found',component: NotFoundComponent},
   { path: 'page-not-found',component: PageNotFoundComponent},
