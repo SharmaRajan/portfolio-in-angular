@@ -1,0 +1,20 @@
+
+// sharing linkId
+var driveLink = "";
+
+function myImgSheet() {
+    var img =DriveApp.getFileById(driveLink);
+    var sheet = SpreadsheetApp.getActiveSheet();
+    sheet.insertImage(img,2,2);
+}
+
+function myImgHtml() {
+    var imgData = DriveApp.getFileById(driveLink).getBlob().getBytes();
+    var imgBlob = Utilities.base64Encode(imgData);
+    var html = HtmlService.createHtmlOutput("<img src='data:image/jpg;base64," + imgBlob + "' />");
+    html.setWidth(320);
+    html.setHeight(310);
+
+    var ui = HtmlService.SpreadsheetApp.getUi();
+    ui.showModalDialog(html, "Image");
+}

@@ -37,6 +37,7 @@ import { ContactsComponent } from './components/home/contacts/contacts.component
 import { TestHomeComponent } from './components/home/test-home/test-home.component';
 import { TestNavComponent } from './components/nav/test-nav/test-nav.component';
 import { HomeTestingComponent } from './home-testing/home-testing.component';
+import { RajanPicComponent } from './components/svg-images/rajan-pic/rajan-pic.component';
 
 @NgModule({
   declarations: [
@@ -62,6 +63,7 @@ import { HomeTestingComponent } from './home-testing/home-testing.component';
     TestHomeComponent,
     TestNavComponent,
     HomeTestingComponent,
+    RajanPicComponent,
   ],
   imports: [
     BrowserModule,
