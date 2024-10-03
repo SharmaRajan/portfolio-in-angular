@@ -37,30 +37,13 @@
               }
             ],
             "styles": [
-              "src/styles.css",
-
-              "src/css/style.css",
-              "src/css/bootstrap.min.css",
-              "src/css/bootstrap-icons.css",
-              "src/css/magnific-popup.css",
-              "src/css/templatemo-first-portfolio-style.css",
-
-              
+              "src/styles.css",              
               "./node_modules/ngx-toastr/toastr.css",
               "./node_modules/material-icons/css/material-icons.css"
               
               
             ],
             "scripts": [
-
-              "src/first-js/jquery.min.js",
-              "src/first-js/bootstrap.min.js",
-              "src/first-js/jquery.sticky.js",
-              "src/first-js/click-scroll.js",
-              "src/first-js/jquery.magnific-popup.min.js",
-              "src/first-js/magnific-popup-options.js",
-              "src/first-js/custom.js"
-
           
             ]
           },
@@ -122,26 +105,11 @@
             ],
             "styles": [
               "src/styles.css",
-              
-              "src/css/style.css",
-              "src/css/bootstrap.min.css",
-              "src/css/bootstrap-icons.css",
-              "src/css/magnific-popup.css",
-              "src/css/templatemo-first-portfolio-style.css",
-              
               "./node_modules/ngx-toastr/toastr.css",
               "./node_modules/material-icons/css/material-icons.css"
               
             ],
             "scripts": [
-              "src/first-js/jquery.min.js",
-              "src/first-js/bootstrap.min.js",
-              "src/first-js/jquery.sticky.js",
-              "src/first-js/click-scroll.js",
-              "src/first-js/jquery.magnific-popup.min.js",
-              "src/first-js/magnific-popup-options.js",
-              "src/first-js/custom.js",
-
               
             ]
           }

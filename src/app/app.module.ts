@@ -27,13 +27,7 @@ import { ServerErrorComponent } from './components/errors/server-error/server-er
 import { TestErrorComponent } from './components/errors/test-error/test-error.component';
 import { BadRequestComponent } from './components/errors/bad-request/bad-request.component';
 import { PageNotFoundComponent } from './components/errors/page-not-found/page-not-found.component';
-import { IntroductionComponent } from './components/home/introduction/introduction.component';
-import { StoryComponent } from './components/home/story/story.component';
-import { PersonalComponent } from './components/home/personal/personal.component';
-import { CompanyComponent } from './components/home/company/company.component';
-import { ServicesComponent } from './components/home/services/services.component';
-import { ProjectsComponent } from './components/home/projects/projects.component';
-import { ContactsComponent } from './components/home/contacts/contacts.component';
+
 import { TestHomeComponent } from './components/home/test-home/test-home.component';
 import { TestNavComponent } from './components/nav/test-nav/test-nav.component';
 import { HomeTestingComponent } from './home-testing/home-testing.component';
@@ -53,13 +47,6 @@ import { RajanPicComponent } from './components/svg-images/rajan-pic/rajan-pic.c
     NotFoundComponent,
     ServerErrorComponent,
     TestErrorComponent,
-    IntroductionComponent,
-    StoryComponent,
-    PersonalComponent,
-    CompanyComponent,
-    ServicesComponent,
-    ProjectsComponent,
-    ContactsComponent,
     TestHomeComponent,
     TestNavComponent,
     HomeTestingComponent,

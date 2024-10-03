@@ -11,10 +11,6 @@ import { TestErrorComponent } from './components/errors/test-error/test-error.co
 import { NotFoundComponent } from './components/errors/not-found/not-found.component';
 
 import { HtmlTableComponent } from './templates/html-table/html-table.component';
-import { IntroductionComponent } from './components/home/introduction/introduction.component';
-import { ServicesComponent } from './components/home/services/services.component';
-import { ProjectsComponent } from './components/home/projects/projects.component';
-import { ContactsComponent } from './components/home/contacts/contacts.component';
 
 const routes: Routes = [
   // { path: '', component: HomeComponent},
@@ -32,11 +28,6 @@ const routes: Routes = [
   // { path: 'login', component: LoginComponent},
   { path: 'home', component: HomeComponent},
   { path: '', redirectTo: 'home', pathMatch: 'full'},
-  { path: 'about', component: IntroductionComponent},
-
-  { path: 'services', component: ServicesComponent},
-  { path: 'projects', component: ProjectsComponent},
-  { path: 'contact', component: ContactsComponent},
 
   { path: 'html-table', component: HtmlTableComponent},
   { path: 'test-error', component: TestErrorComponent},
@@ -44,10 +35,10 @@ const routes: Routes = [
   { path: 'page-not-found',component: PageNotFoundComponent},
   { path: 'bad-request',component: BadRequestComponent},
   { path: 'internal-server-error', component: ServerErrorComponent},
-  { path: '404', component: ServerErrorComponent},
-  // { path: '**', component: ServerErrorComponent},
+  // { path: '404', component: ServerErrorComponent},
+  { path: '**', component: ServerErrorComponent},
   // { path: '**', component: NotFoundComponent, pathMatch: 'full' }
-  { path: '**', redirectTo: '/404' }
+  // { path: '**', redirectTo: '/404' }
 ];
 
 @NgModule({
